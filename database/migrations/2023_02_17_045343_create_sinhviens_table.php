@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('ho_ten');
             $table->string('anh');
-            $table->string('dia chi');
+            $table->string('dia_chi');
             $table->unsignedBigInteger('lop_hoc_id');
             $table->foreign('lop_hoc_id')->references('id')->on('lophocs');
             $table->timestamps();

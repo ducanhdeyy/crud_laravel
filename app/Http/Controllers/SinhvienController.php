@@ -45,7 +45,7 @@ class SinhvienController extends Controller
             Sinhvien::create($request->all());
             return redirect()->route('sinh-vien.index');
         } catch (\Throwable $th) {
-           // dd($th);
+           //dd($th);
         }
     }
 
